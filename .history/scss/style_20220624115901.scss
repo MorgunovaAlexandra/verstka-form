@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+body {
+   
+   @include vov(rgb(128, 0, 62));  
+}
+.form{
+    width: 495.55px;
+    height: 613.21px;
+    background-color: white;
+    border-radius: 23px;
+}

@@ -1,0 +1,16 @@
+$bgColor: green;
+@mixin  {
+    
+} font {
+    color:aqua;
+    font-size: 14px;
+
+}
+body {
+   background-color:$bgColor ;
+}
+.wrapper{
+    .bob{
+       color:aquamarine; 
+    }
+}

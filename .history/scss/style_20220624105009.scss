@@ -1,0 +1,15 @@
+$bgColor: green;
+@mixin vov($color) {
+    font-size: 30px;
+    background-color:$color ;
+}
+body {
+   
+   @include vov(rgb(128, 0, 62));  
+}
+#bob{
+    color:blue;
+    &:hover{
+        color:azure
+    }
+}

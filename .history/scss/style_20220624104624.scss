@@ -1,0 +1,9 @@
+$bgColor: green;
+@mixin vov($color) {
+    font-size: 30px;
+    background-color:$color ;
+}
+body {
+   
+   @include:vov(green);  
+}

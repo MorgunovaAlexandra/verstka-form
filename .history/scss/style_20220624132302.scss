@@ -1,0 +1,111 @@
+@import "variables";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700&display=swap');
+body {
+   @include vov(rgb(128, 0, 62));  
+   font-family:$fontFamily ;
+   font-weight: $fontWaight;
+   line-height: $lineHeight;
+   font-size: $fontSize;
+   color:$ColorGrey;
+}
+.__container{
+    padding-left: 31px;
+}
+.form{
+    width: 495.55px;
+    height: 613.21px;
+    background-color: white;
+    border-radius: 23px;
+     box-sizing: border-box;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+legend{
+    margin-top: 40px;
+    margin-left: 31px;
+    font-weight: 700;
+    font-size: 25px;
+    color:$ColorBlack;
+}
+.text-field{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-bottom: 36px;
+    
+}
+.text-field__input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid $ColorGrey ;
+
+    }
+.text-field__label{
+   position: absolute;
+   left: 0px;
+   
+}
+.text-field__label2{
+    position: absolute;
+    right: 20px;
+}
+.form-field__text{
+    margin-bottom: 38px;
+}
+.form-fied__color{
+    display: flex;
+    justify-content: flex-start;
+}
+.field-color__text{
+margin-right: 32px;
+}
+.field-color__color{
+    display: flex;
+   align-items: center;
+}
+
+.circle__border{
+    position: relative;  
+}
+.grey{
+    position: a;
+    width: 36px;
+    height: 36px;
+    top:4px;
+    left: 4px;
+    border-color: #878C93;
+    border-radius: 50%;
+    z-index: 30;
+    padding: 4px;
+    background-color: 
+    #878C93;
+}
+.circle__img{
+    position: absolute;
+    top:10px
+}
+.circle__color{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right:12px ;
+}
+.purple{
+    background-color: #6153CC;
+    margin-left: 12px;
+}
+.red{
+    background-color:#FF715B;
+}
+.black{
+    background-color:$ColorBlack;
+}
+.yellow{
+    background-color:#FFB627;
+    margin-right:0px ;
+}

@@ -1,0 +1,12 @@
+$bgColor: green;
+@import font{
+    color:aqua;
+}
+body {
+   background-color:$bgColor ;
+}
+.wrapper{
+    .bob{
+       color:aquamarine; 
+    }
+}

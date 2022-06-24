@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700&display=swap');
+body {
+   @include vov(rgb(128, 0, 62));  
+   font-family:$fontFamily ;
+   font-weight: $fontWaight;
+   line-height: $lineHeight;
+   color:$ColorGrey;
+}
+.form{
+    width: 495.55px;
+    height: 613.21px;
+    background-color: white;
+    border-radius: 23px;
+     box-sizing: border-box;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+legend{
+    margin-top: 40px;
+    margin-left: 31px;
+    font-weight: 700;
+    font-size: 25px;
+    color:$ColorBlack;
+}
+
+.text-field__input:{
+    display: block;
+      width: 100%;
+      height: calc(2.25rem + 2px);
+      padding: 0.375rem 0.75rem;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #bdbdbd;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+.text-field__label{
+    di
+}
